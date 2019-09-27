@@ -1,0 +1,26 @@
+<div class="container">
+    <h2> Last Minute Statistics</h2>
+    
+    <table style="width:80%">
+      <thead>
+      <tr>
+        <th>Sum</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Count</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>{{statistics.sum}}</td>
+        <td>{{statistics.avg}}</td>
+        <td>{{statistics.max}}</td>
+        <td>{{statistics.min}}</td>
+        <td>{{statistics.count}}</td>
+      </tr>
+      </tbody>
+    </table>
+<br>
+    <button type="submit" class="btn btn-success" (click)="deleteTransaction()">Delete Transaction</button>
+    </div>

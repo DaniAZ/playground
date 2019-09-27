@@ -1,0 +1,18 @@
+<div class="container" width="60%">
+<div>
+    <h2 class="text-center">Add Transaction</h2>
+  <form>
+    <div class="form-group">
+      <label for="amount">Amount:</label>
+      <input type="text" [(ngModel)]="transaction.amount" placeholder="Amount" name="amount" class="form-control" id="email">
+    </div>
+  
+    <div class="form-group">
+      <label for="time">Time:</label>
+      <input type="text" [(ngModel)]="transaction.time" placeholder="Time" name="time" class="form-control" id="firstName">
+    </div>
+  
+    <button type="submit" class="btn btn-success" (click)="createTransaction()">Save Transaction</button>
+  </form>
+  </div>
+  </div>
